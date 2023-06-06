@@ -5,13 +5,13 @@ Proyecto de Machine Learning para clasificación de noticias falsas.
 
 ## Objetivo del Proyecto
 
-Desarrollar un mecanismo de identificación de noticias falsas con el uso de tecnologías de Machine Learning.
+Desarrollar un mecanismo de identificación de noticias falsas con el uso de tecnologías de Machine Learning que apoye al área de análisis de medios en el control de noticias de falsas.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- Los datos corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene la siguiente la información:
+- Los datos a usar en el entrenamiento del modelo corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene la siguiente la información:
   * Título de la noticia.
   * Texto de la noticia.
   * Subject: tópico asociado a la noticia.
@@ -29,14 +29,14 @@ Desarrollar un mecanismo de identificación de noticias falsas con el uso de tec
 - Resultados esperados:
   Considerando el objetivo del proyectos se espera:
   1. Contar con un artefacto que permita identificar noticias falsas, dado un conjunto de noticias.
-  2. El modelo implementado debe entregar el nivel de confianza de la predicció de manera que basado en un umbral acordado se establezcan las acciones a tomar.
+  2. El modelo implementado debe entregar el nivel de confianza de la predicción de manera que basado en un umbral acordado se establezcan las acciones a tomar.
 
 - [Criterios de éxito del proyecto]
   1. El modelo entrega el nivel de confianza de la predicción dado un conjunto de noticias.
   2. El desarrollo sigue una metología reconocida y mejores prácticas de la industria.
   3. Identificación de los roles requeridos para el desarrollo y operación del modelo entregado.
   4. Código documentado y siguiendo las mejores prácticas.
-  5. Documentación del proyecto y del desarrollo que explique los recursos usados, dependencias y estructura del proyecto que permita su mantenimiento.
+  5. Documentación del proyecto y del desarrollo que explique los recursos usados, herramientas, dependencias y estructura del proyecto que facilite su entendimiento y su futuro mantenimiento.
 
 ### Excluye:
 
@@ -44,25 +44,30 @@ Desarrollar un mecanismo de identificación de noticias falsas con el uso de tec
 
 ## Metodología
 
-La metodología corresponde a CRISP/DM
+La metodología a usar corresponde a TDSP (Team Data Science Process), metodología propuesta por Microsoft en 2016 para proyectos de Data Science y que propone estructurar el proyecto desde varios niveles:
+ *  Ciclo de vida de ciencia de datos, el cual comprende: Entendimiento del negocio, Adquisición y entendimiento de los datos, Modelamiento, Despliegue y Aceptación del cliente.
+ *  Estructuración del proyecto.
+ *  Infraestrutura y recursos.
+ *  Herramientas y utilidades.
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 1 semanas | del 5 de junio al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 5 días | del 1 de junio al 5 de junio |
+| Preprocesamiento, análisis exploratorio | 1 semana | del 6 de junio al 12 de junio |
+| Modelamiento y extracción de características | 1 semana | del 13 de junio al 19 de junio |
+| Despliegue y refinamiento de la documentación | 1 semana | del 20 de junio al 26 de junio |
+| Evaluación, Revisión de la documentación y entrega final | 1 semana | del 27 de junio al 2 de julio |
 
 
 ## Equipo del Proyecto
 
 - Líder de proyecto: Mónica Ruiz
-- Equipo de ingenieros de Machine Learning.
+- Gerente de proyeto del negocio.
+- Equipo de científicos de datos.
 - Arquitecto de solución.
-- Equipo de infraestrutura.
+- Equipo de infraestructura.
 
 ## Presupuesto
 
@@ -73,9 +78,11 @@ El
 - Gerente del área de negocio.
 - Sponsor del proyecto.
 - Analistas de medios.
+- Equipo control del negocio.
+- Equipo de presupuesto y finanzas del negocio.
+- Equipo de TI del negocio.
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+- Gerente del proyecto y sponsor del negocio.
+- 6 de junio de 2023
