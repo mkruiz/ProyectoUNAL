@@ -9,7 +9,7 @@
 | title | Título de la noticia | string | Texto/ Conjunto de Caracteres | 
 | texto | Contenido de la noticia | string | Texto/ Conjunto de Caracteres |
 | Subjet | Tópico asociado a la noticia | string | politicsnews,worldnews, politics, US_News, Middle-east, Government News, Left_news y news  | 
-| date | Fecha de la noticia | date | formato: dd-mmm-yy | 
+| date | Fecha de la noticia | date | Formato: dd-mmm-yy | 
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.
