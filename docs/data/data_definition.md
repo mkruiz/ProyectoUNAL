@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-- Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). Este conjunto de datos provee dos archivos en formato CSV: Fake.csv y Real.csv. 
+Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). Este conjunto de datos provee dos archivos en formato CSV: Fake.csv y Real.csv. 
 
 Cada uno de los cuales contiene la siguiente la información:
   * Título de la noticia.
