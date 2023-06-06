@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-- Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). 
+- Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset), . 
 
 ## Especificación de los scripts para la carga de datos
 
