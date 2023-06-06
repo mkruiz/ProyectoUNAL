@@ -1,18 +1,22 @@
 # Project Charter - Entendimiento del Negocio
 
 ## Nombre del Proyecto
-
-[Nombre del proyecto aquí]
+Proyecto de Machine Learning para clasificación de noticias falsas.
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Desarrollar un mecanismo de identificación de noticias falsas con el uso de tecnologías de Machine Learning.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
+- Los datos corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene la siguiente la información:
+  * Título de la noticia.
+  * Texto de la noticia.
+  * Subject: tópico asociado a la noticia.
+  * Fecha de la noticia.
+  Analizando los datos se encuentra que el conjunto de datos con noticias falsas contiene: 23502 registros y el conjunto de datos con noticias reales contiene: 21418 regstros.
 - [Descripción de los resultados esperados]
 - [Criterios de éxito del proyecto]
 
