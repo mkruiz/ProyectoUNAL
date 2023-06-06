@@ -5,7 +5,7 @@
 **Los archivos Fake.csv y True.csv presentan la siguiente estrutura:
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | title | Título de la noticia | string | Caracteres | 
 | texto | Contenido de la noticia | string | Caracteres |
 | Subjet | Tópico asociado a la noticia | string | politicsnews,worldnews, politics, US_News, Middle-east, Government News, Left_news y news  | 
