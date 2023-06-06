@@ -5,7 +5,7 @@ Proyecto de Machine Learning para clasificación de noticias falsas.
 
 ## Objetivo del Proyecto
 
-Desarrollar un mecanismo de identificación de noticias falsas con el uso de tecnologías de Machine Learning que apoye al área de análisis de medios en el control de noticias de falsas.
+Desarrollar un mecanismo de identificación de noticias falsas con el uso de tecnologías de Machine Learning que apoye al área de análisis de medios en la iniciativa de control de noticias.
 
 ## Alcance del Proyecto
 
