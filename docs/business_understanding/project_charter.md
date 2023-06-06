@@ -11,21 +11,9 @@ Desarrollar un mecanismo de identificación de noticias falsas con el uso de tec
 
 ### Incluye:
 
-- Los datos a usar en el entrenamiento del modelo corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene la siguiente la información:
-  * Título de la noticia.
-  * Texto de la noticia.
-  * Subject: tópico asociado a la noticia.
-  * Fecha de la noticia.
-  Analizando los datos se encuentra que el conjunto de datos con noticias falsas:
-  *  Contiene: 23502 registros
-  *  Son noticias de los años 2015, 2016, 2017 y 2018.
-  *  Se presentan registros (52) con errores en la información de la fecha que deberán ser tratados en la etapa de preparación de los datos.
-  
-  Analizando los datos se encuentra que el conjunto de datos con noticias verdaderas:
-  *  Contienee: 21418 registros. 
-  *  Son noticias de los años 2016 y 2017.
-  *  No presentan errores en la información de las fechas.
-  
+- Los datos a usar en el entrenamiento del modelo corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene información asocidad a las noticias.
+Este conjunto de datos seraá utilizado en el entrenamiento, validación y prueba del modelo.
+    
 - Resultados esperados:
 
   Considerando el objetivo del proyectos se espera:
@@ -57,7 +45,7 @@ La metodología a usar corresponde a TDSP (Team Data Science Process), metodolog
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
 | Entendimiento del negocio y carga de datos | 5 días | del 1 de junio al 5 de junio |
-| Preprocesamiento, análisis exploratorio | 1 semana | del 6 de junio al 12 de junio |
+| Preprocesamiento, análisis exploratorio de los datos y recursos a usar | 1 semana | del 6 de junio al 12 de junio |
 | Modelamiento y extracción de características | 1 semana | del 13 de junio al 19 de junio |
 | Despliegue y refinamiento de la documentación | 1 semana | del 20 de junio al 26 de junio |
 | Evaluación, Revisión de la documentación y entrega final | 1 semana | del 27 de junio al 2 de julio |
@@ -70,10 +58,11 @@ La metodología a usar corresponde a TDSP (Team Data Science Process), metodolog
 - Equipo de científicos de datos.
 - Arquitecto de solución.
 - Equipo de infraestructura.
+- Analista de medios.
 
 ## Presupuesto
 
-El 
+El presupuesto del proyecto se ha 
 
 ## Stakeholders
 
