@@ -27,11 +27,13 @@ Desarrollar un mecanismo de identificación de noticias falsas con el uso de tec
   *  No presentan errores en la información de las fechas.
   
 - Resultados esperados:
+
   Considerando el objetivo del proyectos se espera:
   1. Contar con un artefacto que permita identificar noticias falsas, dado un conjunto de noticias.
   2. El modelo implementado debe entregar el nivel de confianza de la predicción de manera que basado en un umbral acordado se establezcan las acciones a tomar.
 
-- [Criterios de éxito del proyecto]
+- Criterios de éxito del proyecto:
+
   1. El modelo entrega el nivel de confianza de la predicción dado un conjunto de noticias.
   2. El desarrollo sigue una metología reconocida y mejores prácticas de la industria.
   3. Identificación de los roles requeridos para el desarrollo y operación del modelo entregado.
