@@ -63,7 +63,8 @@ La metodología a usar corresponde a TDSP (Team Data Science Process), metodolog
 
 ## Presupuesto
 
-El presupuesto del proyecto se ha 
+El presupuesto del proyecto comprende los siguientes elementos:
+[!Presupuesto](https://github.com/mkruiz/ProyectoUNAL/blob/master/docs/business_understanding/Presupuesto.jpg)
 
 ## Stakeholders
 
