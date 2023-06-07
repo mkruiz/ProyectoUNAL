@@ -22,7 +22,7 @@ Analizando los datos se encuentra que el conjunto de datos con noticias verdader
 
 ## Especificación de los scripts para la carga de datos
 
-Script utilizado para el cargue de la información: . 
+Script utilizado para el cargue de la información: [Download_data.ipynb](https://github.com/mkruiz/ProyectoUNAL/blob/master/scripts/data_acquisition/download_data.ipynb). 
 
 ## Referencias a rutas o bases de datos origen y destino
 
