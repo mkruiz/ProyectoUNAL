@@ -1,7 +1,7 @@
 # Project Charter - Entendimiento del Negocio
 
 ## Nombre del Proyecto
-Proyecto de identificación de noticias falsas con el uso de Machine Learning para la clasificación de noticias falsas y reales.
+Proyecto de identificación de noticias falsas en una iniciativa de control de noticias en redes sociales.
 
 ## Objetivo del Proyecto
 
