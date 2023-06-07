@@ -22,7 +22,7 @@ Analizando los datos se encuentra que el conjunto de datos con noticias verdader
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+Script utilizado para el cargue de la información: . 
 
 ## Referencias a rutas o bases de datos origen y destino
 
