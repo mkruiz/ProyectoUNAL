@@ -24,9 +24,13 @@ Analizando los datos se encuentra que el conjunto de datos con noticias verdader
 
 Script utilizado para el cargue de la información: [Download_data.ipynb](https://github.com/mkruiz/ProyectoUNAL/blob/master/scripts/data_acquisition/download_data.ipynb). 
 
-## Referencias a rutas o bases de datos origen y destino
+## Rereferencias a rutas del origen de los datoa
 
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
+Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). Conjunto de datos que como se ha mencionado contiene dos archivos uno de noticias falsas y otro de noticias verdaderas.
+
+Estos archivos se han disponibilizado en las rutas:
+Archivo con noticias falsas: /content/drive/MyDrive/Colab Notebooks/MLOPS/Data/Fake.csv
+Archivo con noticias verdaderas: /content/drive/MyDrive/Colab Notebooks/MLOPS/Data/True.csv
 
 ### Rutas de origen de datos
 
