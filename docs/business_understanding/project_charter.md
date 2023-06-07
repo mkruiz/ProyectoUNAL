@@ -1,7 +1,7 @@
 # Project Charter - Entendimiento del Negocio
 
 ## Nombre del Proyecto
-Proyecto de Machine Learning para clasificación de noticias falsas.
+Proyecto de identificación de noticias falsas con el uso de Machine Learning para la clasificación de noticias falsas y reales.
 
 ## Objetivo del Proyecto
 
@@ -11,13 +11,13 @@ Desarrollar un mecanismo de identificación de noticias falsas con el uso de tec
 
 ### Incluye:
 
-- Los datos a usar en el entrenamiento del modelo corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene información asocidad a las noticias.
+- Los datos a usar en el entrenamiento del modelo corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene información asocidad a las noticias. La volumetría del conjunto de datos seleccionado se encuentra representada de la siguiente manera: Fake.csv contiene 23.502 noticias y True.csv contiene 21.418 noticias.
 Este conjunto de datos seraá utilizado en el entrenamiento, validación y prueba del modelo.
     
 - Resultados esperados:
 
   Considerando el objetivo del proyectos se espera:
-  1. Contar con un artefacto que permita identificar noticias falsas, dado un conjunto de noticias.
+  1. Contar con un modelo de machine learning que permita identificar noticias falsas, dado un conjunto de noticias.
   2. El modelo implementado debe entregar el nivel de confianza de la predicción de manera que basado en un umbral acordado se establezcan las acciones a tomar.
 
 - Criterios de éxito del proyecto:
@@ -27,6 +27,7 @@ Este conjunto de datos seraá utilizado en el entrenamiento, validación y prueb
   3. Identificación de los roles requeridos para el desarrollo y operación del modelo entregado.
   4. Código documentado y siguiendo las mejores prácticas.
   5. Documentación del proyecto y del desarrollo que explique los recursos usados, herramientas, dependencias y estructura del proyecto que facilite su entendimiento y su futuro mantenimiento.
+  6. Transferencia de conocimiento al equipo de TI de la organización.
 
 ### Excluye:
 
