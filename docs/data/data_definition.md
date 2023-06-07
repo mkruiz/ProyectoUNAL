@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). Este conjunto de datos provee dos archivos en formato CSV: Fake.csv y Real.csv. 
+Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). Este conjunto de datos provee dos archivos en formato CSV: Fake.csv y True.csv. 
 
 Cada uno de los cuales contiene la siguiente la información:
   * Título de la noticia.
@@ -15,7 +15,7 @@ Analizando los datos se encuentra que el conjunto de datos con noticias falsas (
   *  Son noticias de los años 2015, 2016, 2017 y 2018.
   *  Se presentan registros (52) con errores en la información de la fecha que deberán ser tratados en la etapa de preparación de los datos.
   
-Analizando los datos se encuentra que el conjunto de datos con noticias verdaderas (Real.csv):
+Analizando los datos se encuentra que el conjunto de datos con noticias verdaderas (True.csv):
   *  Contienee: 21418 registros. 
   *  Son noticias de los años 2016 y 2017.
   *  No presentan errores en la información de las fechas.
