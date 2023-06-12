@@ -16,7 +16,7 @@ De acuerdo con el análisis exploratorio de los datos se encuentra para el archi
 6. Noticias que tratan de worldnews: 10145.
 7. En el campo 'text' se encontró un registro con 1 caracter. Este registro será parte de la limpieza a realizar en los datos.
 
-De acuerdo con el análisis exploratorio de los datos se encuentra para el archivo de **noticias falsas - False.csv**:
+De acuerdo con el análisis exploratorio de los datos se encuentra para el archivo de **noticias falsas - Fake.csv**:
 
 1. Total de noticias: 23481.
 2. El campo 'date' presenta diferentes formatos e incluso datos que no corresponden a la fecha, sin embargo dado el problema que se plantea y como resultado de análisis exploratorio no se considera información relevante para el desarrollo del objetivo del proyecto.
@@ -33,10 +33,10 @@ Los formatos de las variables se explican en el documento data_dictionary.md.
 
 ## Resumen de calidad de los datos
 
-Los datos se han analizado de manera individual para los dos archivos origen de los datos: True.csv y False.csv. Como resultado se tiene en este aspecto de calidad de los datos:
+Los datos se han analizado de manera individual para los dos archivos origen de los datos: True.csv y Fake.csv. Como resultado se tiene en este aspecto de calidad de los datos:
 1. No hay datos faltantes en el archivo True.csv que corresponde a las noticias reales.
 2. La información de las noticias reales está completa en cuanto al título, contenido y tópico de la noticia, solo 1 registro no presenta la información en el campo 'text'. La fecha aunque está completa para todos los registros no es relevante para el propósito de este proyecto.
-3. El archivo False.csv presenta datos faltantes en la fecha de algunos de los registros (Se presentan registros (52) con errores), aunque presenta información no corresponde a una fecha. Y tal como se mencionó previamente no se dedicarán recursos y esfuerzos en corregir la situación de esta variable particular dado que no se considera relevante para el propósito de este proyecto.
+3. El archivo Fake.csv presenta datos faltantes en la fecha de algunos de los registros (Se presentan registros (52) con errores), aunque presenta información no corresponde a una fecha. Y tal como se mencionó previamente no se dedicarán recursos y esfuerzos en corregir la situación de esta variable particular dado que no se considera relevante para el propósito de este proyecto.
 4. La información de las noticias falsas está completa en cuanto al título, contenido y tópico de la noticia para la mayoría de los registros, sin embargo 630 de ellos no presentan datos en el campo 'text'. 
 
 ## Variable objetivo
@@ -69,7 +69,7 @@ En el archivo True.csv
 * Tamaño promedio del título: 65 caracteres.
 * Todos los registros tiene título.
 
-En el archivo False.csv
+En el archivo Fake.csv
 * Tamaño Máximo del título: 279 caracteres. 
 * Tamaño Mínimo del título: 8 caracteres.
 * Tamaño promedio del título: 94 caracteres.
@@ -89,7 +89,7 @@ En el archivo True.csv
 * Tamaño promedio del contenido: 2382 caracteres.
 * Todos los registros presentan contenido.
 
-En el archivo False.csv
+En el archivo Fake.csv
 * Tamaño Máximo del contenido: 51793 caracteres. 
 * Tamaño mínimo del contenido: 5 caracteres.
 * Tamaño promedio del contenido: 2617 caracteres.
