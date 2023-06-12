@@ -13,7 +13,7 @@ Cada uno de los cuales contiene la siguiente la información:
 Analizando los datos se encuentra que el conjunto de datos con noticias falsas (Fake.csv):
   *  Contiene: 23502 registros
   *  Son noticias de los años 2015, 2016, 2017 y 2018.
-  *  Se presentan registros (52) con errores en la información de la fecha que deberán ser tratados en la etapa de preparación de los datos.
+  *  Se presentan registros (52) con errores en la información de la fecha que deberán ser analizados en la etapa de preparación de los datos.
   
 Analizando los datos se encuentra que el conjunto de datos con noticias verdaderas (True.csv):
   *  Contienee: 21418 registros. 
@@ -34,9 +34,7 @@ Archivo con noticias verdaderas: /content/drive/MyDrive/Colab Notebooks/MLOPS/Da
 
 ### Rutas de origen de datos
 
-- [ ] Especificar la ubicación de los archivos de origen de los datos.
-- [ ] Especificar la estructura de los archivos de origen de los datos.
-- [ ] Describir los procedimientos de transformación y limpieza de los datos.
+Los datos se encuentran en el drive de Google:
 
 ### Base de datos de destino
 
