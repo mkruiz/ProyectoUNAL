@@ -11,12 +11,12 @@ Cada uno de los cuales contiene la siguiente la información:
   * Fecha de la noticia.
   
 Analizando los datos se encuentra que el conjunto de datos con noticias falsas (Fake.csv):
-  *  Contiene: 23502 registros
+  *  Contiene: 23501 registros
   *  Son noticias de los años 2015, 2016, 2017 y 2018.
   *  Se presentan registros (52) con errores en la información de la fecha que deberán ser analizados en la etapa de preparación de los datos.
   
 Analizando los datos se encuentra que el conjunto de datos con noticias verdaderas (True.csv):
-  *  Contienee: 21418 registros. 
+  *  Contienee: 21417 registros. 
   *  Son noticias de los años 2016 y 2017.
   *  No presentan errores en la información de las fechas.
 
@@ -34,10 +34,8 @@ Archivo con noticias verdaderas: /content/drive/MyDrive/Colab Notebooks/MLOPS/Da
 
 ### Rutas de origen de datos
 
-Los datos se encuentran en el drive de Google:
+Los datos se encuentran en el drive de Google de la cuente del autor de este proyecto: /content/drive/MyDrive/Colab Notebooks/MLOPS/Data.
 
 ### Base de datos de destino
 
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
+Para este proyecto no se contempla un repositorio distinto al mencionado que es propiedad del autor de este proyecto.
