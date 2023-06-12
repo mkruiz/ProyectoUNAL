@@ -50,7 +50,7 @@ Las características del conjunto de datos corresponden a las variables: title (
 **Variable subject (tópico)**:
 La siguiente gráfica muestra la distribición de noticias por cada tópico para las _noticias reales_:
 
-![Noticias por tópico](images\reales_topico.jpg)
+![Noticias por tópico](images/reales_topico.jpg)
 
 En la cual se observan 11272 noticias del tópico _politicsNews_ y 10145 noticias que tratan del tópico _worldnews_
 
