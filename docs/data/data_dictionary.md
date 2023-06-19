@@ -10,7 +10,7 @@
 | texto | Contenido de la noticia | string | Texto/ Conjunto de Caracteres |
 | Subjet | Tópico asociado a la noticia | string | politicsnews,worldnews, politics, US_News, Middle-east, Government News, Left_news y news  | 
 | date | Fecha de la noticia | string | Formatos: dd-mmm-yy, mm dd, yyyy | 
-| tipo | Tipo de la noticia | integer | 1 - Real, 0 - Falsa | 
+| type | Tipo de la noticia | integer | 1 - Real, 0 - Falsa | 
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.
