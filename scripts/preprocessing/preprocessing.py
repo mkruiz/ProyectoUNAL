@@ -21,6 +21,15 @@ def preprocessing_true(df):
     return new_df
 
 
+# Función para crear un solo dataframe con todos los datos requeridos
+def preprocessing_data(news_true, news_false, size_content_false):
+    df_true = preprocessing_true(news_true)
+    df_false = preprocessing_false(news_false, size_content_false)
+    dfs = [df_true, df_false]
+    df_new = pd.concat(dfs)
+    return df_new
+
+
 # Función de preprocesamiento de las noticias falsas
 def preprocessing_false(df, size):
     # Cálculo de la extensión del contenido (text) de las noticias falsas
@@ -34,13 +43,7 @@ def preprocessing_false(df, size):
     return new_df
 
 
-# Función para crear un solo dataframe con todos los datos requeridos
-def get_data_processed(news_true, news_false, size_content_false):
-    df_true = preprocessing_true(news_true)
-    df_false = preprocessing_false(news_false, size_content_false)
-    dfs = [df_true, df_false]
-    df_new = pd.concat(dfs)
-    return df_new
+
     
 
 
