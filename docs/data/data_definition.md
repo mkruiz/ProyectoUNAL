@@ -22,20 +22,20 @@ Analizando los datos se encuentra que el conjunto de datos con noticias verdader
 
 ## Especificación de los scripts para la carga de datos
 
-Script utilizado para el cargue de la información: [Download_data.ipynb](https://github.com/mkruiz/ProyectoUNAL/blob/master/scripts/data_acquisition/download_data.ipynb). 
+Script utilizado para el cargue de la información: [Download_data.py](https://github.com/mkruiz/ProyectoUNAL/blob/master/scripts/data_acquisition/download_data.py). 
 
 ## Rereferencias a rutas del origen de los datos
 
 Los datos se obtienen del sitio público Kaggle, en donde se encontró el conjunto de datos: [Fake and Real news dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset). Conjunto de datos que como se ha mencionado contiene dos archivos uno de noticias falsas y otro de noticias verdaderas.
 
-Estos archivos se han disponibilizado en las rutas:
-Archivo con noticias falsas: /content/drive/MyDrive/Colab Notebooks/MLOPS/Data/Fake.csv
-Archivo con noticias verdaderas: /content/drive/MyDrive/Colab Notebooks/MLOPS/Data/True.csv
+Estos archivos se han disponibilizado en las rutas de este proyecto:
+Archivo con noticias falsas: \ProyectoUNAL\src\proy\database\Fake.csv
+Archivo con noticias verdaderas: \ProyectoUNAL\src\proy\database\True.csv
 
 ### Rutas de origen de datos
 
-Los datos se encuentran en el drive de Google de la cuente del autor de este proyecto: /content/drive/MyDrive/Colab Notebooks/MLOPS/Data.
+Los datos se han cargado en el actual proyecto aprovechando que son de caracter público y se encuentran en la siguientes ruta: \ProyectoUNAL\src\proy\database\.
 
 ### Base de datos de destino
 
-Para este proyecto no se contempla un repositorio distinto al mencionado que es propiedad del autor de este proyecto.
+Para este proyecto no se contempla un repositorio distinto al mencionado que hace parte de este proyecto.

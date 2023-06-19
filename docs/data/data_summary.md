@@ -27,8 +27,8 @@ De acuerdo con el análisis exploratorio de los datos se encuentra para el archi
 8. Noticias que tratan de left-News: 4459.
 9. Noticias que tratan de US_News: 783.
 10. Noticias que tratan de Middle-east: 778.
-11. En el campo 'text' se encontró 630 registros sin información. Estos registros serán parte de la limpieza a realizar en los datos.
-
+11. Se encuentran 630 registros sin contenido en el texto de la noticia, los cuales serán eliminados en el preprocesamiento del archivo.
+12. Se encuentran registros 211 registros cuyo tamaño del contenido es muy corto inferior o igual a 50 caracteres. Estos registros serán eliminados de la fuente de datos a procesar. Y se probarán los resultados para evaluar si puede requerirse hacer una nueva inspección y tomar registros con un tamaño del contenido superior al límite usado inicialmente de 50 caracteres.
 Los formatos de las variables se explican en el documento data_dictionary.md.
 
 ## Resumen de calidad de los datos
@@ -37,7 +37,7 @@ Los datos se han analizado de manera individual para los dos archivos origen de 
 1. No hay datos faltantes en el archivo True.csv que corresponde a las noticias reales.
 2. La información de las noticias reales está completa en cuanto al título, contenido y tópico de la noticia, solo 1 registro no presenta la información en el campo 'text'. La fecha aunque está completa para todos los registros no es relevante para el propósito de este proyecto.
 3. El archivo Fake.csv presenta datos faltantes en la fecha de algunos de los registros (Se presentan registros (52) con errores), aunque presenta información no corresponde a una fecha. Y tal como se mencionó previamente no se dedicarán recursos y esfuerzos en corregir la situación de esta variable particular dado que no se considera relevante para el propósito de este proyecto.
-4. La información de las noticias falsas está completa en cuanto al título, contenido y tópico de la noticia para la mayoría de los registros, sin embargo 630 de ellos no presentan datos en el campo 'text'. 
+4. La información de las noticias falsas está completa en cuanto al título, contenido y tópico de la noticia para la mayoría de los registros, sin embargo 630 de ellos no presentan datos en el campo 'text' y 211 presentan un tamaño en el contenido inferior o igual a los 50 caracteres. Estos se eliminarán como parte del proceso de preprocesamiento de los datos y como ya se mencionó la inspección continuará para determinar si este límite de los 50 caracteres es un tamaño razonable para el entrenamiento del modelo o deberá aumentarse.
 
 ## Variable objetivo
 
@@ -91,8 +91,8 @@ En el archivo True.csv
 
 En el archivo Fake.csv
 * Tamaño Máximo del contenido: 51793 caracteres. 
-* Tamaño mínimo del contenido: 5 caracteres.
-* Tamaño promedio del contenido: 2617 caracteres.
+* Tamaño mínimo del contenido: 51 caracteres.
+* Tamaño promedio del contenido: 2641 caracteres.
 
 Transformaciones a realizar:
 1. Eliminar posibles caracteres vacíos al inicio o final del contenido de las variables.
