@@ -38,4 +38,4 @@ Los datos se han cargado en el actual proyecto aprovechando que son de caracter 
 
 ### Base de datos de destino
 
-Para este proyecto no se contempla un repositorio distinto al mencionado que hace parte de este proyecto.
+Para este proyecto no se contempla un repositorio distinto al mencionado que hace parte de este proyecto. Se genera un archivo final con la data procesada en un solo archivo que será usado en el entrenamiento del modelo en la siguiente ruta: C:\ML_UNAL\RepoGitHub\ProyectoUNAL\src\proy\database\new_processes.csv 
