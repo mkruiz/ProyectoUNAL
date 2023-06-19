@@ -15,6 +15,7 @@ De acuerdo con el análisis exploratorio de los datos se encuentra para el archi
 5. Noticias que tratan de politicsNews : 11272.
 6. Noticias que tratan de worldnews: 10145.
 7. En el campo 'text' se encontró un registro con 1 caracter. Este registro será parte de la limpieza a realizar en los datos.
+8. El campo título contiene información acorde con los esperado.
 
 De acuerdo con el análisis exploratorio de los datos se encuentra para el archivo de **noticias falsas - Fake.csv**:
 
@@ -30,6 +31,7 @@ De acuerdo con el análisis exploratorio de los datos se encuentra para el archi
 11. Se encuentran 630 registros sin contenido en el texto de la noticia, los cuales serán eliminados en el preprocesamiento del archivo.
 12. Se encuentran registros 211 registros cuyo tamaño del contenido es muy corto inferior o igual a 50 caracteres. Estos registros serán eliminados de la fuente de datos a procesar. Y se probarán los resultados para evaluar si puede requerirse hacer una nueva inspección y tomar registros con un tamaño del contenido superior al límite usado inicialmente de 50 caracteres.
 Los formatos de las variables se explican en el documento data_dictionary.md.
+13. El campo título contiene información acorde con los esperado.
 
 ## Resumen de calidad de los datos
 
