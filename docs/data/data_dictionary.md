@@ -2,7 +2,7 @@
 
 ## Conjunto de datos
 
-**Los archivos Fake.csv y True.csv presentan la siguiente estructura:
+Los archivos Fake.csv y True.csv presentan la siguiente estructura:
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles |
 | --- | --- | --- | --- |
