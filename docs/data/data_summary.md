@@ -40,6 +40,9 @@ Los datos se han analizado de manera individual para los dos archivos origen de 
 2. La información de las noticias reales está completa en cuanto al título, contenido y tópico de la noticia, solo 1 registro no presenta la información en el campo 'text'. La fecha aunque está completa para todos los registros no es relevante para el propósito de este proyecto.
 3. El archivo Fake.csv presenta datos faltantes en la fecha de algunos de los registros (Se presentan registros (52) con errores), aunque presenta información no corresponde a una fecha. Y tal como se mencionó previamente no se dedicarán recursos y esfuerzos en corregir la situación de esta variable particular dado que no se considera relevante para el propósito de este proyecto.
 4. La información de las noticias falsas está completa en cuanto al título, contenido y tópico de la noticia para la mayoría de los registros, sin embargo 630 de ellos no presentan datos en el campo 'text' y 211 presentan un tamaño en el contenido inferior o igual a los 50 caracteres. Estos se eliminarán como parte del proceso de preprocesamiento de los datos y como ya se mencionó la inspección continuará para determinar si este límite de los 50 caracteres es un tamaño razonable para el entrenamiento del modelo o deberá aumentarse.
+5. La distribución de las noticias reales y falsas antes del procesamiento es: 52.3% y 47.7%.
+6. La distribución de las noticias reales y falsas después del procesamiento es: 51.4% y 48.6%.
+7. Con esta distribución de las noticias reales y falsas los datos se encuentran razonablemente balanceados.
 
 ## Variable objetivo
 
