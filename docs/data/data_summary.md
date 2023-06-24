@@ -100,11 +100,3 @@ Transformaciones a realizar:
 1. Eliminar posibles caracteres vacíos al inicio o final del contenido de las variables.
 2. Validar la longitud de las variables después de la limpieza de los caracteres vacíos para determinar que existe información válida en cada uno de las variables.
 3. Eliminación de registros sin información en las variables.
-
-## Ranking de variables
-
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
-
-## Relación entre variables explicativas y variable objetivo
-
-En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
