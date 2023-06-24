@@ -21,17 +21,17 @@ De acuerdo con el análisis exploratorio de los datos se encuentra para el archi
 
 1. Total de noticias: 23481.
 2. El campo 'date' presenta diferentes formatos e incluso datos que no corresponden a la fecha, sin embargo dado el problema que se plantea y como resultado de análisis exploratorio no se considera información relevante para el desarrollo del objetivo del proyecto.
-4. Las noticias se encuentran asociadas a dos temas: 'News', 'politics', 'Government News', 'left-news', 'US_News' y 'Middle-east.
-5. Noticias que tratan de politics : 6841.
-6. Noticias que tratan de News: 9050.
-7. Noticias que tratan de Government News: 1570.
-8. Noticias que tratan de left-News: 4459.
-9. Noticias que tratan de US_News: 783.
-10. Noticias que tratan de Middle-east: 778.
-11. Se encuentran 630 registros sin contenido en el texto de la noticia, los cuales serán eliminados en el preprocesamiento del archivo.
-12. Se encuentran registros 211 registros cuyo tamaño del contenido es muy corto inferior o igual a 50 caracteres. Estos registros serán eliminados de la fuente de datos a procesar. Y se probarán los resultados para evaluar si puede requerirse hacer una nueva inspección y tomar registros con un tamaño del contenido superior al límite usado inicialmente de 50 caracteres.
+3. Las noticias se encuentran asociadas a dos temas: 'News', 'politics', 'Government News', 'left-news', 'US_News' y 'Middle-east.
+4. Noticias que tratan de politics : 6841.
+5. Noticias que tratan de News: 9050.
+6. Noticias que tratan de Government News: 1570.
+7. Noticias que tratan de left-News: 4459.
+8. Noticias que tratan de US_News: 783.
+9. Noticias que tratan de Middle-east: 778.
+10. Se encuentran 630 registros sin contenido en el texto de la noticia, los cuales serán eliminados en el preprocesamiento del archivo.
+11. Se encuentran registros 211 registros cuyo tamaño del contenido es muy corto inferior o igual a 50 caracteres. Estos registros serán eliminados de la fuente de datos a procesar. Y se probarán los resultados para evaluar si puede requerirse hacer una nueva inspección y tomar registros con un tamaño del contenido superior al límite usado inicialmente de 50 caracteres.
 Los formatos de las variables se explican en el documento data_dictionary.md.
-13. El campo título contiene información acorde con los esperado.
+12. El campo título contiene información acorde con los esperado.
 
 ## Resumen de calidad de los datos
 
