@@ -38,16 +38,23 @@ Con esta última implementación se obtienen resultados importantes como se mues
 
 ## Análisis de los resultados
 
-> Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
+En cuanto al modelo baseline seleccionado se destacan varios elementos importantes:
 
-Aún no he logrado encontrar resultados concluyentes.
+1. Es un modelo con un bajo grado de dificultad para implementar.
+2. No requiere altos recursos computacionales para ser usado, incluso con los recursos gratuitos de Google Colab es posible ejecutarlo.
+3. Los resultados obtenidos en la métricas objetivo 
+
 
 ## Conclusiones
 
-Los resultados obtenidos hasta el momento no corresponden con lo esperado, pues después de varios intentos y modificaciones en la definición del modelo se sigue presentando una exactitud de 1. Lo cual en este tipo de problemas refleja posibles errores que deben ser revisados.
+Los resultados obtenidos con la implementación con el modelo XGBClassifier hasta el momento no corresponden con lo esperado, pues después de varios intentos y modificaciones en la definición del modelo se sigue presentando una exactitud de 1. Lo cual en este tipo de problemas refleja posibles errores que deben ser revisados.
 
-Hasta el momento no he podido generar la línea base continuaré realizando iteraciones y ajustes al modelo y revisiones a los datos. Lo cual hace parte del ciclo de la metodología utilizada y cuyo objetivo es lograr el mejor resultado para el problema planteado.
+De acuerdo con estos resultados se realizan pruebas con otra implementación usando RandomForestClassiffier logrando mejores resultados como se puede observar en las métricas presentadas.
+
+Es importante mencionar que dado el alcance del presente proyecto no se llevaron a cabo otras actividades que permitieran analizar los textos de entrada con mayor profundidad por ejemplo con la herramienta pyLDAvis. Y tampoco se incluyeron otros técnicas para el afinamiento del modelo como Grid search de manera que ayudara explorando el espacio de posibles soluciones al problema planteado. Continuar iterando en el ajuste del modelo con técnicas existentes hace parte del ciclo de la metodología utilizada y cuyo objetivo es lograr el mejor resultado para el problema planteado.
 
 ## Referencias
 
-[XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/index.html).
+[XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/index.html)
+
+[RandomForestClassifier Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
