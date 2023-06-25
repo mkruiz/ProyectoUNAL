@@ -16,7 +16,7 @@ Este conjunto de datos seraá utilizado en el entrenamiento, validación y prueb
     
 - Resultados esperados:
 
-  Considerando el objetivo del proyectos se espera:
+  Considerando el objetivo del proyecto se espera:
   1. Contar con un modelo de machine learning que permita identificar noticias falsas, dado un conjunto de noticias.
   2. El modelo implementado debe entregar el nivel de confianza de la predicción de manera que basado en un umbral acordado se establezcan las acciones a tomar.
 
