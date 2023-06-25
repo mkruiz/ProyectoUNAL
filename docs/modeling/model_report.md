@@ -36,7 +36,7 @@ Descripción del modelo:
 
 * Se congelan las capas del modelo BERT.
 * Se compila el modelo definiendo Adam como optimizador y al tener dos neuronas de salida se usa la funci;on de pérdida: CategoricalCrossentropy. Además se usa una tasa de aprendizaje de 5e-6.
-* Se define un stopping en callback, monitoreando la métrica "accuracy" en validación, patience de 5 y buscando maximizar el valor de accuracy en validación.
+* Se define un stopping en callback, monitoreando la métrica "accuracy" en validación, definiendo un valor en patience dependiendo del número de epochs y buscando maximizar el valor de accuracy en validación.
 * Se define un checkpoint en callback, monitoreando la métrica "accuracy" en validación, patience de 5 y buscando maximizar el valor de accuracy en validación. Adicionalmente guardando los pesos del modelo con los mejores resultados.
 * El parámetro validation_split (definición de la porción de datos usada para validación) es 0.2.
 * Número de epochs = 10.
