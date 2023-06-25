@@ -9,6 +9,7 @@ Cada uno de los cuales contiene la siguiente la información:
   * Texto de la noticia.
   * Subject: tópico asociado a la noticia.
   * Fecha de la noticia.
+  * El idioma es Inglés.
 
 Analizando los datos se encuentra que el conjunto de datos con noticias falsas (Fake.csv):
   *  Contiene: 23501 registros
