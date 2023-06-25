@@ -4,7 +4,7 @@ Este documento contiene los resultados del modelo baseline.
 
 ## Descripción del modelo
 
-El modelo baseline seleccionado es el modelo: XGBClassifier considerando que se trata de un problema de clasificación de noticias falsas y verdaderas.
+Para la implementación del modelo baseline se realizan pruebas con los modelos: XGBClassifier y RandomForestClassiffier. De acuerdo con los resultados obtenidos la implementación con RandomForestClassiffier es el seleccionado como baseline.
 
 ## Variables de entrada
 
@@ -14,9 +14,7 @@ title : título de  la noticia
 
 text : contenido de la noticia
 
-Subject: tópico de la noticia
-
-Estas tres variables se procesaron para unirlas en una sola columna, generar una lista y  posteriormente convertir estos textos en una matriz de características TF-IDF. Representación que es requerida para el modelo.
+Estas dos variables se procesaron para unirlas en una sola columna, generar una lista y  posteriormente convertir estos textos en una matriz de características TF-IDF. Representación que es requerida para el modelo baseline.
 
 ## Variable objetivo
 
@@ -32,7 +30,9 @@ Las métricas usadas en el modelo son accuracy y F1-score.
 
 ### Resultados de evaluación
 
-Los resultados no han mostrado hasta el momento resultados coherentes, se continuará en la revisión y generación de la línea base adecuada.
+Los resultados para la implementación con XGBClassifier no han mostrado hasta el momento resultados coherentes. Al continuar con la revisión y generación de la línea base adecuada se realizan pruebas con RandomForestClassiffier.
+Con esta última implementación se obtienen resultados importantes como se muestra en la siguiente gráfica:
+![Métricas Model baseline: RandomForestClassiffier](images/metricas_randomforestclassifier.jpg) 
 
 ## Análisis de los resultados
 
