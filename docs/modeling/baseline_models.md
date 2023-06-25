@@ -31,7 +31,9 @@ Las métricas usadas en el modelo son accuracy y F1-score.
 ### Resultados de evaluación
 
 Los resultados para la implementación con XGBClassifier no han mostrado hasta el momento resultados coherentes. Al continuar con la revisión y generación de la línea base adecuada se realizan pruebas con RandomForestClassiffier.
+
 Con esta última implementación se obtienen resultados importantes como se muestra en la siguiente gráfica:
+
 ![Métricas Model baseline: RandomForestClassiffier](images/metricas_randomforestclassifier.jpg) 
 
 ## Análisis de los resultados
