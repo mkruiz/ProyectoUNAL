@@ -50,7 +50,7 @@ La variable objetivo corresponde al tipo de noticia y se crea al generar un solo
 
 ## Variables individuales
 
-Las características del conjunto de datos corresponden a las variables: title (título de la noticia), text (contenido de la noticia) y subject (tópico asociado a la noticia).
+Las características del conjunto de datos corresponden a las variables: title (título de la noticia), text (contenido de la noticia) y subject (tópico asociado a la noticia). Sin embargo, dado que el tópico en los datasets de las noticias reales y falsas nos son los mismos y puede generar bias en el modelo se decide solo considerar las variable: title y text para el entrenamiento del modelo.
 
 **Variable subject (tópico)**:
 La siguiente gráfica muestra la distribición de noticias por cada tópico para las _noticias reales_:
