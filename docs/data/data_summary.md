@@ -44,6 +44,15 @@ Los datos se han analizado de manera individual para los dos archivos origen de 
 6. La distribución de las noticias reales y falsas después del procesamiento es: 51.4% y 48.6%.
 7. Con esta distribución de las noticias reales y falsas los datos se encuentran razonablemente balanceados.
 
+**Distribución de la noticias antes del procesamiento**
+
+![Proporcion antes del procesamiento](images/proporcion_antes.jpg)
+
+**Distribución de la noticias después del procesamiento**
+
+![Proporcion antes del procesamiento](images/proporcion_despues.jpg)
+
+
 ## Variable objetivo
 
 La variable objetivo corresponde al tipo de noticia y se crea al generar un solo conjunto de datos con las noticias falsas y reales, de tipo entero y asignando 1 a las noticias reales y 0  a las noticias falsas.
