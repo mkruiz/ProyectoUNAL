@@ -2,18 +2,18 @@
 
 ## Resumen Ejecutivo
 
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
 El modelo final se basa en el uso del modelo de clasificación de deep learning y se ha implementado con el uso del modelo pre-entrenado BERT.
 
-Las métricas de evaluación
+En cuanto a las métricas obtenidas:
 
+![Metricas del modelo final](images/metricas_bert.jpg)
 
-En cuanto a las métricas obtenidas.
-
+Se puede observar que aunque el accuracy es de 0.49, las otras métricas: f1-score, Precision y Recall son muy bajas para la clase 0 (noticias falsas) y presenta mejores resultados para la clase 1 (noticias reales).
+Con estos resultados el modelo requiere mejoras importantes que superen las limitaciones descritas en este documento y especialmente en la consecusión de mejores recursos de cómputo que permitan procesar el conjunto de datos completo y con otros niveles de exigencia (número de epochs, tamaño del batch) para obtener mejores resultados.
 
 ## Descripción del Problema
 
-En distintos contextos de la comunicación de noticias y en especial en redes sociales es cada vez más común la mezcla de noticias reales y falsas y la dificultad para los lectores y consumidores de estas noticias de identificar que es real y que es falso. Las plataformas y en general algunas asociaciones de comunicadores se han preocupado por desarrollar mecanismos que les permitan la identificación de noticias falsas y que estos mecanimos se soporten de tecnología escalables y que puedan procesar grandes volumenes de información.
+En distintos contextos de la comunicación de noticias y en especial en redes sociales es cada vez más común la mezcla de noticias reales y falsas y la dificultad para los lectores y consumidores de estas noticias de identificar que es real y que es falso. Las plataformas y en general algunas asociaciones de comunicadores se han preocupado por desarrollar mecanismos que les permitan la identificación de noticias falsas y que estos mecanimos se soporten de tecnología escalables y que puedan procesar grandes volúmenes de información.
 
 Es por esto que la inteligencia artificial y especialmente el Machine Learning alcanza un papel fundamental para proveer estos mecanismos que a través del entrenamiento puedan procesar grandes volúmenes de información, identificar las noticias falsas y que sean escalables de manera que su entrenamiento y actualización sea continúo en el tiempo para que no pierdan su efectividad en esta tarea de clasificación.
 
@@ -35,12 +35,12 @@ Como se ha mencionado en las secciones anteriores el modelo de clasificación im
 Descripción del modelo:
 
 * Se congelan las capas del modelo BERT.
-* Se compila el modelo definiendo Adam como optimizador y al tener dos neuronas de salida se usa la funci;on de pérdida: CategoricalCrossentropy. Además se usa una tasa de aprendizaje de 5e-6.
+* Se compila el modelo definiendo Adam como optimizador y al tener dos neuronas de salida se usa la función de pérdida: CategoricalCrossentropy. Además se usa una tasa de aprendizaje de 5e-6.
 * Se define un stopping en callback, monitoreando la métrica "accuracy" en validación, definiendo un valor en patience dependiendo del número de epochs y buscando maximizar el valor de accuracy en validación.
-* Se define un checkpoint en callback, monitoreando la métrica "accuracy" en validación, patience de 5 y buscando maximizar el valor de accuracy en validación. Adicionalmente guardando los pesos del modelo con los mejores resultados.
+* Se define un checkpoint en callback, monitoreando la métrica "accuracy" en validación y buscando maximizar el valor de accuracy en validación. Adicionalmente guardando los pesos del modelo con los mejores resultados.
 * El parámetro validation_split (definición de la porción de datos usada para validación) es 0.2.
-* Número de epochs = 10.
-* Tamaño del batch = 1500.
+* Número de epochs = 5.
+* Tamaño del batch = 1000.
 
 Teniendo en cuenta los recursos computacionales para la implementación del presente modelo se tomaron las siguientes decisiones para lograr una versión entrenada del modelo y con resultados que pemitan ofrecer un mecanismo de clasificación de noticias reales y falsas:
 
@@ -53,16 +53,23 @@ Teniendo en cuenta los recursos computacionales para la implementación del pres
 
 En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
 
-## Conclusiones y Recomendaciones
+En la siguiente gráfica se presenta los métricas obtenidas en la evaluación de este modelo:
+![Metricas del modelo final](images/metricas_bert.jpg)
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+* Se puede observar un accuracy de 0.49.
+* Las otras métricas: f1-score, Precision y Recall son muy bajas para la clase 0 (noticias falsas) y presenta mejores resultados para la clase 1 (noticias reales).
+* Con los resultados que se evidencian en las métricas de evaluación del modelo, se concluye que este modelo requiere mejoras y continuar en el proceso de entrenamiento, evaluación y mejoramiento.
+* Con estos resultados el modelo requiere mejoras importantes que superen las limitaciones descritas en este documento y especialmente en la consecusión de mejores recursos de cómputo que permitan procesar el conjunto de datos completo y con otros niveles de exigencia (número de epochs, tamaño del batch) para obtener mejores resultados.
+
+## Conclusiones y Recomendaciones
 
 Como resultado de la implementación del Modelo Final descrito en este documento y las distintas actividades que involucra emprender un proyecto de este alcance se establecen las siguientes conclusiones:
 
 1. Teniendo en cuenta las limitaciones en los recursos de cómputo disponibles en este proyecto y que se presentan en distintos proyectos es importante considerar técnicas que permitan reducir la complejidad de los datos y que a su vez mantengan la información relevante. Por eso he considerado para una segunda fase de este proyecto usar técnicas de sumarización de texto con el propósito de reducir el tamaño del contenido de las noticias y poder usar este contenido (variable text) en el entrenamiento del modelo final seleccionado.
 2. Aunque la implementación del modelo final seleccionado no se logró entrenar con la totalidad de los datos del dataset, se confirma su uso en este paso esperando probar esta implementación con mejores resultados computacionales y así lograr una comparación efectiva con el modelo Baseline elegido.
 3. La infraestructura es una variable importante en el desarrollo de proyectos de Machine Learning por eso es importante que desde un inicio  los distintos equipos de un proyecto: científicos de datos, ingenieros de machine learning, arquitectos y demás roles relevantes se encuentren presenter para llevar cabo las discusiones y la toma de decisiones para establecer la arquitectura, los recursos disponibles y las capacidades requeridas para lograr con éxito los resultados esperados.
-4. Comparacion con baseline
+4. Aunque los resultados obtenidos en este modelo final pueden mejorarse dadas las limitaciones descritas. Todo este desarrollo de validar otros modelos hace parte de los proyectos de machine learning para lograr desarrollar conocimiento de otras implementaciones, entender su funcionamiento y ganar esa experiencia que se potencialice para futuros proyectos. 
+Comparacion con baseline
 5. Métricas
 
 
