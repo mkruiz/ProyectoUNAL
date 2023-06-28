@@ -51,6 +51,7 @@ Teniendo en cuenta los recursos computacionales para la implementación del pres
 ## Evaluación del Modelo
 
 En la siguiente gráfica se presenta los métricas obtenidas en la evaluación de este modelo:
+
 ![Metricas del modelo final](images/metricas_bert.jpg)
 
 * Se puede observar un accuracy de 0.49.
