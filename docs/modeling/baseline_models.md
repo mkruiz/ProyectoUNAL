@@ -42,7 +42,7 @@ En cuanto al modelo baseline seleccionado se destacan varios elementos important
 
 1. Es un modelo con un bajo grado de dificultad para implementar.
 2. No requiere altos recursos computacionales para ser usado, incluso con los recursos gratuitos de Google Colab es posible ejecutarlo.
-3. Los resultados obtenidos en la métricas objetivo 
+3. Los resultados obtenidos en la métricas objetivo presentan un nivel de confianza acorde con lo esperado.
 
 
 ## Conclusiones
