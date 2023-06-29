@@ -23,7 +23,7 @@ Este conjunto de datos seraá utilizado en el entrenamiento, validación y prueb
 - Criterios de éxito del proyecto:
 
   1. El modelo entrega el nivel de confianza de la predicción dado un conjunto de noticias.
-  2. El desarrollo sigue una metología reconocida y mejores prácticas de la industria.
+  2. El desarrollo sigue una metodología reconocida y mejores prácticas de la industria.
   3. Identificación de los roles requeridos para el desarrollo y operación del modelo entregado.
   4. Código documentado y siguiendo las mejores prácticas.
   5. Documentación del proyecto y del desarrollo que explique los recursos usados, herramientas, dependencias y estructura del proyecto que facilite su entendimiento y su futuro mantenimiento.
