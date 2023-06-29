@@ -83,5 +83,6 @@ Configurar la integración con la plataforma Railway para la disponibilización 
 
 - **Instrucciones de mantenimiento:** 
 
-Para el mantenimiento del despliegue es importante llevar a cabo actividades de monitoreo del modelo que permitan comparar el modelo desplegado con la línea base, de manera que si detectan desviones se tomen las acciones para mejorar el desempeño del modelo. Importante considerar los tipos de desviaciones para así orientar los análisis respectivos.
+Para el mantenimiento del despliegue es importante llevar a cabo actividades de monitoreo del modelo que permitan comparar el modelo desplegado con la línea base, de manera que si detectan desviaciones se tomen las acciones para mejorar el desempeño del modelo. Importante considerar los tipos de desviaciones para así orientar los análisis respectivos.
 
+Importante tener en cuenta usar la herramienta joblib para guardar la última versión del modelo.
