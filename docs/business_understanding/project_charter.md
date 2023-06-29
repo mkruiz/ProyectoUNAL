@@ -12,7 +12,7 @@ Desarrollar un mecanismo de identificación de noticias falsas con el uso de tec
 ### Incluye:
 
 - Los datos a usar en el entrenamiento del modelo corresponden a un conjunto de noticias reales y falsas disponibles en el sitio público: Kaggle. Estos datos se encuentran organizados en dos archivos CSV (Fake.csv y True.csv), cada uno de los cuales contiene información asocidad a las noticias. La volumetría del conjunto de datos seleccionado se encuentra representada de la siguiente manera: Fake.csv contiene 23.502 noticias y True.csv contiene 21.418 noticias.
-Este conjunto de datos seraá utilizado en el entrenamiento, validación y prueba del modelo.
+Este conjunto de datos será utilizado en el entrenamiento, validación y prueba del modelo.
     
 - Resultados esperados:
 
