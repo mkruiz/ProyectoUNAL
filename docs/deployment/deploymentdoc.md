@@ -79,6 +79,12 @@ Configurar la integración con la plataforma Railway para la disponibilización 
 2. Consulta de búsqueda: falsetrue.
 3. La variable que recibe el texto a clasificar es texts.
 4. La variable que devuelve la inferencia es is_falsetrue: 0 - False, 1 - Real.
+5. Ejemplo de consumo de la API se presenta en el siguiente codigo:
+
+#Prueba con una noticia real
+import os
+r = requests.post(os.path.join(model_url, "falsetrue"), json={"texts": ["Texto de la noticia"]})
+print(r.json()) # 0-False 1-True
 
 
 - **Instrucciones de mantenimiento:** 
